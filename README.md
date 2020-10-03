@@ -1,1 +1,1 @@
-# Slack bot
+# Telegram bot
