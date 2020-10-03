@@ -46,7 +46,7 @@ def spin_feeds():
         read_article_feed(x)
 
 
-schedule.every(30).minutes.do(spin_feeds)
+schedule.every(60).minutes.do(spin_feeds)
 while True:
     schedule.run_pending()
     time.sleep(1)

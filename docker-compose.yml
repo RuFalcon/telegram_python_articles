@@ -13,8 +13,8 @@ services:
         networks:
             - botnet
 
-    slackbot:
-        container_name: bot
+    telegram:
+        container_name: telegram_bot
         build:
             context: .
         command: python run.py
