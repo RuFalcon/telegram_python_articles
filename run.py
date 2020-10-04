@@ -1,11 +1,14 @@
-from config import CHAT_ID
+import config
 import feedparser
-from database.db import db
+from database.db import Database
 from telegram_bot import bot
 import schedule
 import time
 import logging
 logging.basicConfig(filename='test.log', level=logging.DEBUG)
+
+db = Database(config.DATABASE, config.PGUSER,
+              config.PGPASSWORD, config.HOST, config.PORT)
 
 
 myfeeds = [
@@ -34,8 +37,8 @@ def read_article_feed(feed):
         title, link = [article['title'], article['link']]
         if db.article_not_exist(article['title']):
             try:
-                db.insert(article['title'], article['link'])
-                bot.send_message(CHAT_ID, f"{title}\n {link}")
+                db.insert(title, link)
+                bot.send_message(config.CHAT_ID, f"{title}\n {link}")
             except Exception as ex:
                 print(ex)
 

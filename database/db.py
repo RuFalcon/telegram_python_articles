@@ -1,5 +1,6 @@
 import psycopg2
 from psycopg2 import sql
+import random
 import config
 
 
@@ -26,7 +27,3 @@ class Database():
             "SELECT NOT EXISTS(SELECT 1 FROM python_articles WHERE title=%s)", (title,))
         result = self.cursor.fetchone()[0]
         return result
-
-
-db = Database(config.DATABASE, config.PGUSER,
-              config.PGPASSWORD, config.HOST, config.PORT)
