@@ -38,7 +38,7 @@ def read_article_feed(feed):
         if db.article_not_exist(article['title']):
             try:
                 db.insert(title, link)
-                bot.send_message(config.CHAT_ID, f"{title}\n {link}")
+                bot.send_message(config.CHAT_ID, f"{title}\n{link}")
             except Exception as ex:
                 print(ex)
 
