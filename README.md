@@ -10,6 +10,7 @@ Python articles and videos parser
 
 [Ссылка на рабочую группу](https://web.telegram.org/#/im?p=@python_articles_and_videos)
 
+
 ![Python: articles and videos](https://www.dataoptimal.com/wp-content/uploads/python-programming-for-beginners-2019.jpg "Python: articles and videos")
 
 
