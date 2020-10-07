@@ -24,6 +24,7 @@ myfeeds = [
     'https://python-scripts.com/feed',
     'https://www.blog.pythonlibrary.org/feed/',
     'https://www.codesnail.com/feed/',
+    'https://shwanoff.ru/category/programming/python/feed/',
     'https://www.youtube.com/feeds/videos.xml?channel_id=UC9MK8SybZcrHR3CUV4NMy2g',
     'https://www.youtube.com/feeds/videos.xml?channel_id=UCBGENnRMZ3chHn_9gkcrFuA',
     'https://www.youtube.com/feeds/videos.xml?channel_id=UC-QDfvrRIDB6F0bIO4I4HkQ',
