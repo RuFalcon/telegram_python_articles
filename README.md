@@ -37,8 +37,12 @@ Python articles and videos parser
 `python run.py`
 
 ## Запуск через Docker
+Клонируем репозиторий на сервере.
+
 `git clone https://github.com/RuFalcon/telegram_python_articles.git`
 
-Создание .env файла и загрузка всех переменных окружения
+Создаём .env файл и загружаем все переменные окружения.
+
+Запускаем Docker
 
 `docker up --build`
