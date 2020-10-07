@@ -1,15 +1,17 @@
-Python article and video parser
+Python articles and videos parser
 =============================== 
-Programming Language :: Python :: 3.8
 
-Программа по сбору последних интересных новостей и видео, которые касаются языка программирования Python. 
+Программа по сбору последних интересных новостей и видео, которые касаются языка программирования Python.
+
 Работает следующим образом: 
 - С помощью библиотеки feedparser каждый час обходит фиды и youtube-каналы посвящённые Python из заранее составленного списка.
 - Проверяет есть ли новости в базе данных и если нет добавляет новость в базу и передаёт на отправку в telegram.
 - Telegram бот присылвет новости в формате заголовок-ссылка в группу в telegram.
 
 [Ссылка на рабочую группу](https://web.telegram.org/#/im?p=@python_articles_and_videos)
-![Python: articles and videos](telegram.jpg)
+
+![Python: articles and videos](https://www.dataoptimal.com/wp-content/uploads/python-programming-for-beginners-2019.jpg "Python: articles and videos")
+
 
 ## Установка
 Установка виртуального окружения
@@ -33,5 +35,7 @@ Programming Language :: Python :: 3.8
 
 ## Запуск через Docker
 `git clone https://github.com/RuFalcon/telegram_python_articles.git`
+
 Создание .env файла и загрузка всех переменных окружения
+
 `docker up --build`
