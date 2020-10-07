@@ -16,9 +16,11 @@ Python articles and videos parser
 
 ## Установка
 Установка виртуального окружения
+
 `python -m venv venv`
 
 Установка зависимостей
+
 `pip install -r requirements.txt`
 
 ## Создание переменных окружения
