@@ -11,8 +11,15 @@ Python articles and videos parser
 [Ссылка на рабочую группу](https://web.telegram.org/#/im?p=@python_articles_and_videos)
 
 
-![Python: articles and videos](https://www.dataoptimal.com/wp-content/uploads/python-programming-for-beginners-2019.jpg "Python: articles and videos")
+![Python: articles and videos](https://thumb.cloud.mail.ru/weblink/thumb/xw1/2tZ3/3fkdyEL8n/telegram.jpg "Python: articles and videos")
 
+## Зависимости
+- feedparser
+- psycopg2
+- pyTelegramBotAPI
+- python-dotenv
+- requests
+- schedule
 
 ## Установка
 Установка виртуального окружения
