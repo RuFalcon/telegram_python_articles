@@ -52,4 +52,4 @@ Python articles and videos parser
 
 Запускаем Docker
 
-`docker up --build`
+`docker-compose up --build`
